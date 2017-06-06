@@ -4,3 +4,8 @@
 <o>
   Description: <%= @article.description %>
 </o>
+
+<p>
+  <%= link_to "Back to Articles Listring", articles_path %> |
+  <%= link_to "Edit Articles", edit_article_path(@article) %>
+</p>
